@@ -9,6 +9,7 @@ test_that("Test Euler problem 2", {
 })
 
 test_that("Test Euler problem 3", {
+  expect_equal(euler_3(221, 17))
   expect_equal(euler_3(600851475143), 6857L)
 })
 
