@@ -22,7 +22,7 @@ find_factors <- function(x){
 #'
 #' @param n An integer.
 is_prime <- function(n){
-  n == 2L || all(n %% 2L:max(2, floor(sqrt(n))) != 0)
+  n == 2L || (all(n %% 2L:max(2, floor(sqrt(n))) != 0) && n!=1)
 }
 #' Find triangle numbers
 #'
