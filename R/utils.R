@@ -20,10 +20,15 @@ find_factors <- function(x){
 
 #' Work out if a number is a prime number
 #'
-#' @param n An integer.
-is_prime <- function(n){
-  n == 2L || (all(n %% 2L:max(2, floor(sqrt(n))) != 0) && n!=1)
+#' @param x Vector of integers.
+is_prime <- function(x){
+
+  vapply(x, function(n){
+    n == 2L || (all(n %% 2L:max(2, floor(sqrt(n))) != 0) && n!=1)
+
+  }, logical(1))
 }
+
 #' Find triangle numbers
 #'
 #' @param x How many triangle numbers to find
