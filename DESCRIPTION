@@ -8,12 +8,13 @@ Authors@R: c(
 Description: A package to offer solutions to Project Euler problems.
 URL: https://github.com/nathaneastwood/euler
 BugReports: https://github.com/nathaneastwood/euler/issues
-Depends: 
+Depends:
   R (>= 3.4.2)
 License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
-Suggests: 
+Suggests:
   testthat,
   covr
+Imports: 
