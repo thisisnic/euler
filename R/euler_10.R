@@ -5,8 +5,6 @@
 #'
 #' @param n An integer to find the summation of primes under this value.
 #'
-#' @import purrr
-#'
 #' @examples
 #' euler_10(1000)
 #'

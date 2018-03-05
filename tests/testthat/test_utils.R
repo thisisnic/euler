@@ -18,6 +18,7 @@ test_that("is_prime returns whether a number is prime", {
 
   expect_true(is_prime(13))
   expect_false(is_prime(1337))
+  expect_false(is_prime(1))
 
 })
 

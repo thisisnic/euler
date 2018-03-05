@@ -4,10 +4,10 @@
 \alias{is_prime}
 \title{Work out if a number is a prime number}
 \usage{
-is_prime(n)
+is_prime(x)
 }
 \arguments{
-\item{n}{An integer.}
+\item{x}{Vector of integers.}
 }
 \description{
 Work out if a number is a prime number
