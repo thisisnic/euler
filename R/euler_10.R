@@ -3,14 +3,14 @@
 #' This is a solution to
 #' \href{https://projecteuler.net/problem=10}{Euler problem 10}.
 #'
-#' @param n An integer to find the summation of primes under this value.
+#' @param n An integer.
 #'
 #' @examples
-#' euler_10(1000)
+#' euler_10(10)
+#' euler_10(2e6)
 #'
 #' @export
 euler_10 <- function(n) {
-  num_vec <- 1:(n-1)
-  prime_vals <- num_vec[is_prime(num_vec)]
-  sum(as.numeric(prime_vals))
+  primes <- esieve(n)
+  sum(as.numeric(primes))
 }

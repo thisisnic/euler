@@ -10,7 +10,6 @@
 #'
 #' @export
 euler_2 <- function(x) {
-
   vals <- c(1, 2)
 
   for (i in 3:x) {

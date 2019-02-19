@@ -7,13 +7,13 @@
 euler_10(n)
 }
 \arguments{
-\item{n}{An integer to find the summation of primes under this value.}
+\item{n}{An integer.}
 }
 \description{
 This is a solution to
 \href{https://projecteuler.net/problem=10}{Euler problem 10}.
 }
 \examples{
-euler_10(1000)
-
+euler_10(10)
+euler_10(2e6)
 }
